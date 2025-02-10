@@ -4,7 +4,7 @@ const axios = require("axios");
 
 const app = express();
 const PORT = 3000;
-const API_KEY = "AIzaSyB8gdsr2hkCxsgKLoDpKdLuhSMm9T4YXQk"; // 👉 여기에 Google API 키 입력
+const API_KEY = ""; // 👉 여기에 Google API 키 입력
 
 app.use(cors()); // CORS 문제 해결
 app.use(express.json()); // JSON 요청을 파싱하기 위한 미들웨어
